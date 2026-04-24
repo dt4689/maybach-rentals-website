@@ -76,3 +76,57 @@ body {
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
+
+/* Blog article prose styles */
+.prose-maybach p {
+  font-family: var(--font-inter);
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: #8A8578;
+  margin-bottom: 1.5rem;
+}
+.prose-maybach h2 {
+  font-family: var(--font-cormorant);
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #F5F0E6;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.prose-maybach ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+.prose-maybach ul li {
+  font-family: var(--font-inter);
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: #8A8578;
+  padding-left: 1.25rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.prose-maybach ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: #C9A961;
+}
+.prose-maybach strong {
+  color: #F5F0E6;
+  font-weight: 500;
+}
+.prose-maybach em {
+  color: #F5F0E6;
+  font-style: italic;
+}
+.prose-maybach a {
+  color: #C9A961;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201, 169, 97, 0.3);
+  transition: border-color 0.2s;
+}
+.prose-maybach a:hover {
+  border-color: #C9A961;
+}
